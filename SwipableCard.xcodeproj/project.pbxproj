@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		945817A71D0151E800817A99 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945817A61D0151E800817A99 /* Array+Extension.swift */; };
+		94A7ABCF1CFFFFFA00360CCB /* CardViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7ABCE1CFFFFFA00360CCB /* CardViewContainer.swift */; };
+		94A7ABD11D00000400360CCB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7ABD01D00000400360CCB /* CardView.swift */; };
+		94A7ABD51D0028C800360CCB /* Card.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94A7ABD41D0028C800360CCB /* Card.xib */; };
+		94A7ABD71D002E1F00360CCB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A7ABD61D002E1F00360CCB /* Utility.swift */; };
+		94D12EF51CFC7EF900903694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12EF41CFC7EF900903694 /* AppDelegate.swift */; };
+		94D12EF71CFC7EF900903694 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12EF61CFC7EF900903694 /* ViewController.swift */; };
+		94D12EFA1CFC7EF900903694 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D12EF81CFC7EF900903694 /* Main.storyboard */; };
+		94D12EFC1CFC7EF900903694 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94D12EFB1CFC7EF900903694 /* Assets.xcassets */; };
+		94D12EFF1CFC7EF900903694 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94D12EFD1CFC7EF900903694 /* LaunchScreen.storyboard */; };
+		94D12F0A1CFC7EF900903694 /* SwipableCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12F091CFC7EF900903694 /* SwipableCardTests.swift */; };
+		94D12F151CFC7EF900903694 /* SwipableCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D12F141CFC7EF900903694 /* SwipableCardUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94D12F061CFC7EF900903694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D12EE91CFC7EF900903694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D12EF01CFC7EF900903694;
+			remoteInfo = SwipableCard;
+		};
+		94D12F111CFC7EF900903694 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D12EE91CFC7EF900903694 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94D12EF01CFC7EF900903694;
+			remoteInfo = SwipableCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		945817A61D0151E800817A99 /* Array+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		94A7ABCE1CFFFFFA00360CCB /* CardViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewContainer.swift; sourceTree = "<group>"; };
+		94A7ABD01D00000400360CCB /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		94A7ABD41D0028C800360CCB /* Card.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Card.xib; sourceTree = "<group>"; };
+		94A7ABD61D002E1F00360CCB /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		94D12EF11CFC7EF900903694 /* SwipableCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipableCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D12EF41CFC7EF900903694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94D12EF61CFC7EF900903694 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94D12EF91CFC7EF900903694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94D12EFB1CFC7EF900903694 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94D12EFE1CFC7EF900903694 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94D12F001CFC7EF900903694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D12F051CFC7EF900903694 /* SwipableCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipableCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D12F091CFC7EF900903694 /* SwipableCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCardTests.swift; sourceTree = "<group>"; };
+		94D12F0B1CFC7EF900903694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94D12F101CFC7EF900903694 /* SwipableCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipableCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94D12F141CFC7EF900903694 /* SwipableCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipableCardUITests.swift; sourceTree = "<group>"; };
+		94D12F161CFC7EF900903694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94D12EEE1CFC7EF900903694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F021CFC7EF900903694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F0D1CFC7EF900903694 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A7ABCD1CFFFFDD00360CCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94A7ABCE1CFFFFFA00360CCB /* CardViewContainer.swift */,
+				94A7ABD01D00000400360CCB /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94D12EE81CFC7EF900903694 = {
+			isa = PBXGroup;
+			children = (
+				94D12EF31CFC7EF900903694 /* SwipableCard */,
+				94D12F081CFC7EF900903694 /* SwipableCardTests */,
+				94D12F131CFC7EF900903694 /* SwipableCardUITests */,
+				94D12EF21CFC7EF900903694 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94D12EF21CFC7EF900903694 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94D12EF11CFC7EF900903694 /* SwipableCard.app */,
+				94D12F051CFC7EF900903694 /* SwipableCardTests.xctest */,
+				94D12F101CFC7EF900903694 /* SwipableCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94D12EF31CFC7EF900903694 /* SwipableCard */ = {
+			isa = PBXGroup;
+			children = (
+				94A7ABD61D002E1F00360CCB /* Utility.swift */,
+				945817A61D0151E800817A99 /* Array+Extension.swift */,
+				94D12EF41CFC7EF900903694 /* AppDelegate.swift */,
+				94D12EF61CFC7EF900903694 /* ViewController.swift */,
+				94A7ABCD1CFFFFDD00360CCB /* View */,
+				94D12EF81CFC7EF900903694 /* Main.storyboard */,
+				94A7ABD41D0028C800360CCB /* Card.xib */,
+				94D12EFB1CFC7EF900903694 /* Assets.xcassets */,
+				94D12EFD1CFC7EF900903694 /* LaunchScreen.storyboard */,
+				94D12F001CFC7EF900903694 /* Info.plist */,
+			);
+			path = SwipableCard;
+			sourceTree = "<group>";
+		};
+		94D12F081CFC7EF900903694 /* SwipableCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				94D12F091CFC7EF900903694 /* SwipableCardTests.swift */,
+				94D12F0B1CFC7EF900903694 /* Info.plist */,
+			);
+			path = SwipableCardTests;
+			sourceTree = "<group>";
+		};
+		94D12F131CFC7EF900903694 /* SwipableCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94D12F141CFC7EF900903694 /* SwipableCardUITests.swift */,
+				94D12F161CFC7EF900903694 /* Info.plist */,
+			);
+			path = SwipableCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94D12EF01CFC7EF900903694 /* SwipableCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D12F191CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCard" */;
+			buildPhases = (
+				94D12EED1CFC7EF900903694 /* Sources */,
+				94D12EEE1CFC7EF900903694 /* Frameworks */,
+				94D12EEF1CFC7EF900903694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipableCard;
+			productName = SwipableCard;
+			productReference = 94D12EF11CFC7EF900903694 /* SwipableCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94D12F041CFC7EF900903694 /* SwipableCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D12F1C1CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCardTests" */;
+			buildPhases = (
+				94D12F011CFC7EF900903694 /* Sources */,
+				94D12F021CFC7EF900903694 /* Frameworks */,
+				94D12F031CFC7EF900903694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D12F071CFC7EF900903694 /* PBXTargetDependency */,
+			);
+			name = SwipableCardTests;
+			productName = SwipableCardTests;
+			productReference = 94D12F051CFC7EF900903694 /* SwipableCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94D12F0F1CFC7EF900903694 /* SwipableCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94D12F1F1CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCardUITests" */;
+			buildPhases = (
+				94D12F0C1CFC7EF900903694 /* Sources */,
+				94D12F0D1CFC7EF900903694 /* Frameworks */,
+				94D12F0E1CFC7EF900903694 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94D12F121CFC7EF900903694 /* PBXTargetDependency */,
+			);
+			name = SwipableCardUITests;
+			productName = SwipableCardUITests;
+			productReference = 94D12F101CFC7EF900903694 /* SwipableCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94D12EE91CFC7EF900903694 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kusal Shrestha";
+				TargetAttributes = {
+					94D12EF01CFC7EF900903694 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					94D12F041CFC7EF900903694 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94D12EF01CFC7EF900903694;
+					};
+					94D12F0F1CFC7EF900903694 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94D12EF01CFC7EF900903694;
+					};
+				};
+			};
+			buildConfigurationList = 94D12EEC1CFC7EF900903694 /* Build configuration list for PBXProject "SwipableCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94D12EE81CFC7EF900903694;
+			productRefGroup = 94D12EF21CFC7EF900903694 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94D12EF01CFC7EF900903694 /* SwipableCard */,
+				94D12F041CFC7EF900903694 /* SwipableCardTests */,
+				94D12F0F1CFC7EF900903694 /* SwipableCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94D12EEF1CFC7EF900903694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D12EFF1CFC7EF900903694 /* LaunchScreen.storyboard in Resources */,
+				94D12EFC1CFC7EF900903694 /* Assets.xcassets in Resources */,
+				94D12EFA1CFC7EF900903694 /* Main.storyboard in Resources */,
+				94A7ABD51D0028C800360CCB /* Card.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F031CFC7EF900903694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F0E1CFC7EF900903694 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94D12EED1CFC7EF900903694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D12EF71CFC7EF900903694 /* ViewController.swift in Sources */,
+				94D12EF51CFC7EF900903694 /* AppDelegate.swift in Sources */,
+				94A7ABD71D002E1F00360CCB /* Utility.swift in Sources */,
+				94A7ABD11D00000400360CCB /* CardView.swift in Sources */,
+				945817A71D0151E800817A99 /* Array+Extension.swift in Sources */,
+				94A7ABCF1CFFFFFA00360CCB /* CardViewContainer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F011CFC7EF900903694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D12F0A1CFC7EF900903694 /* SwipableCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D12F0C1CFC7EF900903694 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D12F151CFC7EF900903694 /* SwipableCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94D12F071CFC7EF900903694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D12EF01CFC7EF900903694 /* SwipableCard */;
+			targetProxy = 94D12F061CFC7EF900903694 /* PBXContainerItemProxy */;
+		};
+		94D12F121CFC7EF900903694 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94D12EF01CFC7EF900903694 /* SwipableCard */;
+			targetProxy = 94D12F111CFC7EF900903694 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94D12EF81CFC7EF900903694 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D12EF91CFC7EF900903694 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94D12EFD1CFC7EF900903694 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94D12EFE1CFC7EF900903694 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94D12F171CFC7EF900903694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94D12F181CFC7EF900903694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94D12F1A1CFC7EF900903694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipableCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94D12F1B1CFC7EF900903694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwipableCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94D12F1D1CFC7EF900903694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipableCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipableCard.app/SwipableCard";
+			};
+			name = Debug;
+		};
+		94D12F1E1CFC7EF900903694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SwipableCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipableCard.app/SwipableCard";
+			};
+			name = Release;
+		};
+		94D12F201CFC7EF900903694 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipableCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipableCard;
+			};
+			name = Debug;
+		};
+		94D12F211CFC7EF900903694 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SwipableCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.leapfrog.SwipableCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SwipableCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94D12EEC1CFC7EF900903694 /* Build configuration list for PBXProject "SwipableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D12F171CFC7EF900903694 /* Debug */,
+				94D12F181CFC7EF900903694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D12F191CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D12F1A1CFC7EF900903694 /* Debug */,
+				94D12F1B1CFC7EF900903694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D12F1C1CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D12F1D1CFC7EF900903694 /* Debug */,
+				94D12F1E1CFC7EF900903694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94D12F1F1CFC7EF900903694 /* Build configuration list for PBXNativeTarget "SwipableCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94D12F201CFC7EF900903694 /* Debug */,
+				94D12F211CFC7EF900903694 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94D12EE91CFC7EF900903694 /* Project object */;
+}
