@@ -4,4 +4,4 @@
 Easy to use
 <p>
 <br>
-![alt tag](https://github.com/kusalshrestha/SKSwipeableCard/blob/master/swipeableCard)
+![alt tag](https://github.com/kusalshrestha/SKSwipeableCard/blob/master/swipeableCard.jpg)
